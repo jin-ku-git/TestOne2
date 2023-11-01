@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/gouzhua"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meow meia-fada vai falar bobagens"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/radius_white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pergunte novamente"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_answer"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/radius_white"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="100dp"
+                />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
