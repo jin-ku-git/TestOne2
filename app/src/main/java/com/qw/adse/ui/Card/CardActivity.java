@@ -24,7 +24,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import me.goldze.mvvmhabit.utils.KLog;
 
 public class CardActivity extends BaseActivity implements View.OnClickListener {
 
@@ -61,7 +60,6 @@ public class CardActivity extends BaseActivity implements View.OnClickListener {
 
             String submitJson = new Gson().toJson(mList);
 
-            KLog.d(submitJson);
 
             drawBean.setListName(submitJson);
             drawBean.setName("Que frutas comer hoje？");

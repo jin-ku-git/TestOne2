@@ -27,7 +27,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import me.goldze.mvvmhabit.utils.KLog;
 
 public class DrawActivity extends BaseActivity implements View.OnClickListener {
 
@@ -70,7 +69,6 @@ public class DrawActivity extends BaseActivity implements View.OnClickListener {
 
             String submitJson = new Gson().toJson(list);
 
-            KLog.d(submitJson);
 
             drawBean.setListName(submitJson);
             drawBean.setName("Que frutas comer hoje？");

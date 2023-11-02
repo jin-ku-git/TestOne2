@@ -109,4 +109,56 @@
             android:textSize="15dp" />
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_yonghu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/yonghu"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Contrato do Usuário"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_yinsi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/yinsi"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Política de privacidade"
+            android:textSize="15dp" />
+
+    </LinearLayout>
 </LinearLayout>

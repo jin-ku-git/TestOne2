@@ -29,7 +29,6 @@ import com.qw.adse.utils.zhuanpan.LuckPanAnimEndCallBack;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.goldze.mvvmhabit.utils.KLog;
 
 
 public class OneFragment extends BaseFragment implements View.OnClickListener{
@@ -82,7 +81,7 @@ public class OneFragment extends BaseFragment implements View.OnClickListener{
         binding.luckPans.setLuckPanAnimEndCallBack(new LuckPanAnimEndCallBack() {
             @Override
             public void onAnimEnd(String str) {
-                KLog.d(str);
+
                 isEnd=true;
 
                 showDialog(str);
@@ -96,7 +95,6 @@ public class OneFragment extends BaseFragment implements View.OnClickListener{
 
                     if (result.getData()!=null){
 
-                        KLog.d( "onActivityResult: data = " + result.getData().getStringExtra("name"));
                         String name =result.getData().getStringExtra("name");
                         binding.tvName.setText(name);
 

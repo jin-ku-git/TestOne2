@@ -22,7 +22,6 @@ import com.qw.adse.utils.DividerItemDecorations;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.goldze.mvvmhabit.utils.KLog;
 
 public class AddDecisionActivity extends BaseActivity implements View.OnClickListener {
 
@@ -111,7 +110,7 @@ public class AddDecisionActivity extends BaseActivity implements View.OnClickLis
 
             String submitJson = new Gson().toJson(mList);
 
-            KLog.d("submitJson:"+submitJson);
+
 
             if (count==0){
                 drawBean =new DrawBean();

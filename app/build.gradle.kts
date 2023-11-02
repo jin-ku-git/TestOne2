@@ -64,7 +64,7 @@ dependencies {
 
     implementation("com.github.bumptech.glide:glide:4.11.0")
 
-    implementation("com.github.goldze:MVVMHabit:4.0.0")
+//    implementation("com.github.goldze:MVVMHabit:4.0.0")
 
 
     implementation("com.google.code.gson:gson:2.8.6")

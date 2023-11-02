@@ -11,7 +11,6 @@ import com.google.gson.JsonParser;
 
 import java.util.ArrayList;
 
-import me.goldze.mvvmhabit.utils.KLog;
 
 public class MyApplication extends Application {
 
@@ -25,7 +24,7 @@ public class MyApplication extends Application {
 
 
         context = this;
-        KLog.init(true);
+
 
 
 

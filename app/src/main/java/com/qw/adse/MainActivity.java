@@ -2,11 +2,13 @@ package com.qw.adse;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.qw.adse.base.BaseActivity;
+import com.qw.adse.databinding.ActivityMainBinding;
 import com.qw.adse.ui.fragment.OneFragment;
 import com.qw.adse.ui.fragment.TwoFragment;
 
@@ -23,14 +25,17 @@ public class MainActivity extends BaseActivity {
     private List<Fragment> mFragments;
 
     PageNavigationView pager_bottom_tab;
-
+    ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setTheme(R.style.Base_Theme_TestOne);
 
-        setContentView(R.layout.activity_main);
+        binding= ActivityMainBinding.inflate(getLayoutInflater());
+        View view=binding.getRoot();
+        setContentView(view);
+
 
         pager_bottom_tab=$(R.id.pager_bottom_tab);
 
