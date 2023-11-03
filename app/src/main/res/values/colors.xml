@@ -5,4 +5,7 @@
 
     <color name="province_line_border">#C7C7C7</color>
     <color name="red_ff4a57">#ff4a57</color>
+
+    <color name="beijing_shen">#F2F2F2</color>
+    <color name="colors_main">#3FAEA8</color>
 </resources>

@@ -32,11 +32,11 @@ public class XieYiActivity extends BaseActivity {
         if ("1".equals(type)){
             binding.topName.setText("Contrato do Usuário");
             binding.webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
-            binding.webView.loadUrl("file:///android_asset/yonghu.html");
+            binding.webView.loadUrl("file:///android_asset/yonghu");
         }else if ("2".equals(type)){
             binding.topName.setText("Acordo de Privacidade");
             binding.webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
-            binding.webView.loadUrl("file:///android_asset/yinsi");
+            binding.webView.loadUrl("file:///android_asset/yinsi.html");
         }
 
         binding.webView.setWebChromeClient(new WebChromeClient());

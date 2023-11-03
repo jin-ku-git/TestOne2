@@ -57,7 +57,7 @@
             android:paddingBottom="3dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
-            android:layout_marginEnd="80dp"
+
             />
         <TextView
             android:id="@+id/tv_jd"
@@ -69,6 +69,7 @@
             android:paddingBottom="3dp"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
+            android:visibility="gone"
             />
 
     </LinearLayout>

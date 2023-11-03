@@ -14,8 +14,8 @@ public class TossAnimation extends Animation {
     public static final int DIRECTION_CLOCKWISE = 1;
     public static final int DIRECTION_ABTUCCLOCKWISE = -1;
 
-    public static final int RESULT_FRONT = 1; // 正面
-    public static final int RESULT_REVERSE = -1; // 反面
+    public static final int RESULT_FRONT = 1;
+    public static final int RESULT_REVERSE = -1;
 
 
     private int mCircleCount;

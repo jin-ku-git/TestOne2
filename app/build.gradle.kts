@@ -15,16 +15,16 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        // 这里添加
+
         multiDexEnabled=true
     }
 
     buildTypes {
         release {
-            //开启代码混淆
+
             isMinifyEnabled = true
 
-            //移除无用的resource文件
+
             isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -33,7 +33,7 @@ android {
         }
         debug {
             isMinifyEnabled = true
-            //移除无用的resource文件
+
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }

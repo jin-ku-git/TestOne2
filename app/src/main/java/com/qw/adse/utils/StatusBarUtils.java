@@ -87,7 +87,7 @@ public class StatusBarUtils {
                 setStatusBarFontIconDark(activity, TYPE_MIUI, dark);
             } else if (OSUtils.isFlyme()) {
                 setStatusBarFontIconDark(activity, TYPE_FLYME, dark);
-            } else {//其他情况
+            } else {
                 return false;
             }
             return true;

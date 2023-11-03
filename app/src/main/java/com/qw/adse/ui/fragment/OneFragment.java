@@ -34,7 +34,7 @@ import java.util.List;
 public class OneFragment extends BaseFragment implements View.OnClickListener{
 
 
-    String[] mItems=new String[7];;
+    String[] mItems=new String[6];;
     boolean isEnd = true;
     private FragmentOneBinding binding;
 
@@ -58,7 +58,7 @@ public class OneFragment extends BaseFragment implements View.OnClickListener{
             mItems[3]="Cerejas";
             mItems[4]="Melancia";
             mItems[5]="quivi";
-            mItems[6]="Kivi";
+
 
             List<String> list =new ArrayList<>();
             for (int i = 0; i < mItems.length; i++) {

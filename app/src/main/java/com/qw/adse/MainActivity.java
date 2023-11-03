@@ -11,6 +11,7 @@ import com.qw.adse.base.BaseActivity;
 import com.qw.adse.databinding.ActivityMainBinding;
 import com.qw.adse.ui.fragment.OneFragment;
 import com.qw.adse.ui.fragment.TwoFragment;
+import com.qw.adse.utils.SharedPreferencesUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +30,9 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SharedPreferencesUtil.setBoolean(MainActivity.this, SharedPreferencesUtil.FIRST_OPEN, false);
+
 
         setTheme(R.style.Base_Theme_TestOne);
 

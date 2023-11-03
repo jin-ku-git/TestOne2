@@ -44,6 +44,7 @@
         android:orientation="horizontal"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
+        android:visibility="gone"
 
         >
         <ImageView
@@ -91,7 +92,7 @@
         android:orientation="horizontal"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-
+        android:visibility="gone"
         >
         <ImageView
             android:layout_width="20dp"
